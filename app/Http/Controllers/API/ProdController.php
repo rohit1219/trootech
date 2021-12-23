@@ -195,7 +195,7 @@ class ProdController extends Controller
                 }
             }
 
-            return response()->json(['status'=>'success', 'code'=> 200, 'message' => 'Data Updated Successfully', 'result'=> $productData]);
+            return response()->json(['status'=>'success', 'code'=> 200, 'message' => 'Data Updated Successfully', 'result'=> $product]);
         }
         else
         {
