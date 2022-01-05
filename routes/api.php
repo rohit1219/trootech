@@ -31,3 +31,6 @@ Route::middleware([AdminKey::class])->group(function(){
     Route::resource('product',  'App\Http\Controllers\API\ProdController');
 });
 
+Route::resource('fermion',  'App\Http\Controllers\API\FermionController');
+
+
